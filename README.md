@@ -5,7 +5,7 @@ A package for visualising vector embedding collections as part of the [Chroma](h
 Uses [Flask](https://flask.palletsprojects.com/en/2.3.x/), [Vite](https://vitejs.dev), and [react-three-fiber](https://github.com/pmndrs/react-three-fiber) to host a live 3D view of the data in a web browser, should perform well up to 10k+ documents. Dimensional reduction is performed using PCA for colors down to 50 dimensions, followed by tSNE down to 3.
 
 ## How to Use
-`pip install chromaviz` or `pip install git+https://github.com/rditljeh/chromaviz/`.
+`pip install chromaviz` or `pip install git+https://github.com/rditljeh/chromaviz_update/`.
 After installing from pip, simply call `visualize_collection` with a valid ChromaDB collection, and chromaviz will do the rest.
 ```
 from chromaviz import visualize_collection
