@@ -6,6 +6,7 @@ Uses [Flask](https://flask.palletsprojects.com/en/2.3.x/), [Vite](https://vitejs
 
 ## How to Use
 `pip install chromaviz` or `pip install git+https://github.com/rditljeh/chromaviz_update/`.
+*also* pip install --upgrade threadpoolctl
 After installing from pip, simply call `visualize_collection` with a valid ChromaDB collection, and chromaviz will do the rest.
 ```
 from chromaviz import visualize_collection
